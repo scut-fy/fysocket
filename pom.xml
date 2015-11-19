@@ -3,7 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.scut.wusir</groupId>
 	<artifactId>fyMsgSys</artifactId>
-	<version>1.0.3</version><!--  nio 版本总是为奇数 -->
+	<version>1.0.3</version>
+	<!--  nio 版本总是为奇数 -->
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -38,11 +39,15 @@
 			<version>4.2</version>
 			<scope>test</scope>
 		</dependency>
-<!-- 		<dependency>
+		<dependency>
 			<groupId>io.netty</groupId>
-			<artifactId>netty-all</artifactId>
-			<version>4.0.27.Final</version>
-		</dependency> -->
-
+			<artifactId>netty-handler</artifactId>
+			<version>4.0.32.Final</version>
+		</dependency>
+		<dependency>
+			<groupId>io.netty</groupId>
+			<artifactId>netty-codec-http</artifactId>
+			<version>4.0.32.Final</version>
+		</dependency>
 	</dependencies>
 </project>
